@@ -6,6 +6,7 @@ ruby '2.1.2'
 gem 'rails', '4.0.5'
 gem 'bootstrap-sass', '2.3.2.0'
 gem 'sprockets', '2.11.0'
+gem 'bcrypt-ruby', '3.1.2'
 
 group :development, :test do
 # Use sqlite3 as the database for Active Record
@@ -17,6 +18,9 @@ group :test do
 	gem 'selenium-webdriver', '2.35.1'
 	gem 'capybara', '2.1.0'
 end
+
+#sass '3.2.13' added to deal with heroku
+gem 'sass', '3.2.13'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.1'
